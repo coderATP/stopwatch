@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tan;
+}
+
+p#digital{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25%;
+    font-size: 2rem;
+    margin-top: 10px;
+    background-color: darkcyan;
+}
+
+div#buttons{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 1%;
+    width: 100%;
+    max-width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 2rem;
+    width: 33%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #102030;
+    color: white;
+}
+
+#canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 360px;
+    border: 10px ridge green;
+    border-radius: 40px;
+    max-width: 100%;
+    max-height: 100%
+}
